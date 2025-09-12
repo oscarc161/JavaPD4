@@ -7,10 +7,9 @@ class Main {
   // program begins.  
 
   void init(){
-
-      // This is how to print to the console 
-      // in Java.
-      Syscxbxccxtem.out.println("Hello World");
+   System.out.println("Oscar Chen");
+   System.out.println("Oscar Chen Sesame street");
+   System.out.println("Oscar Chen\nSesame street");
     
   }
 
