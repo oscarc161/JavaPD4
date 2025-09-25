@@ -16,17 +16,21 @@ class Main {
 int v1 = 2;
 int v2 = 45;
 int sum = v1 * v2;
+System.out.println(sum);
 
 
-
-/*  
+/*  java 
     Challenge 2:
     Create three variables to assign three grades and Assign values to each grade. 
     Calculate the sum of the three grades and store the 
     calculated sum and then display it.
     
 */
-
+int grade1 = 0;
+int grade2 = 5;
+int grade3 = 99;
+float sum_of_grades = grade1 + grade2 + grade3;
+System.out.println(sum_of_grades);
 
 
 /*  
@@ -36,7 +40,8 @@ int sum = v1 * v2;
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-
+float average = sum_of_grades/3;
+System.out.println(average);
 
 
 /*  
@@ -45,7 +50,10 @@ int sum = v1 * v2;
     Declare and assign values to any new variables
 
 */
-  
+  float a = 6;
+  float x = 4;
+  float y1 = (a)/(x-1);
+  System.out.println(y1);
 
 /*  
     Challenge 5:
@@ -55,7 +63,8 @@ int sum = v1 * v2;
 
 */
  
-
+float y2 = ((2)*(x)*(x+1)*(-x/2))/a;
+System.out.println(y2);
 
 
 
@@ -67,6 +76,11 @@ int sum = v1 * v2;
 
     Declare and assign values to any new variables
 */
+
+float base = 8;
+float height = 10;
+float area = (base * height)/2;
+System.out.println(area);
  
 
 
@@ -89,8 +103,12 @@ int sum = v1 * v2;
     are left over after we filled as many baskets of 12 eggs.
 */
 
-
-
+int total_eggs = 100;
+int basket = 12;
+int filled = total_eggs / basket; 
+int left = total_eggs % basket;
+System.out.println(filled);
+System.out.println(left);
 
 
     // **************************************************
