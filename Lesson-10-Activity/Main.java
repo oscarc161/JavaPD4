@@ -10,6 +10,7 @@ class Main {
 		isGraduating(45, 12);
 		bmi(130,160);
 		shippingCost(30);
+		blueOrViolet(650);
 
   }
    
@@ -65,7 +66,7 @@ class Main {
 			}
 	void blueOrViolet(int THz){
 		boolean neither = false;
-		if(THz <= 600 && THz <= 670){
+		if(THz >= 600 && THz <= 670){
 			System.out.println("Blue");
 		}else if(THz >= 700 && THz <= 750){
 			System.out.println("Violet");
