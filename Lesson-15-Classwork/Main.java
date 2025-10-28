@@ -1,5 +1,4 @@
 class Main {
-
   public static void main(String[] args) {
     (new Main()).init();
   }
@@ -7,13 +6,15 @@ class Main {
   void printt(Object o){ System.out.print(o);}
 
   void init(){
-   
-  }
-
-  void creditCardType(String number){
     
+
   }
 
+  double aproxp_pi(int n){
+    double sum = 4;
+    for(int i = 1; i<n; i+=2){}
+
+  }
   
   
 }
