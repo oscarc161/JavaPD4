@@ -7,12 +7,13 @@ class Main {
   void printt(Object o){ System.out.print(o);}
 
   void init(){
+    String msg = "hellohello";
+    String msg2 = msg.substring (11,12);
+    print(msg2);
    
   }
 
-  void creditCardType(String number){
-    
-  }
+  
 
   
   
