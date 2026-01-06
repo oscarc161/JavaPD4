@@ -10,7 +10,7 @@ class Main {
 
 
     // Challenge1: Read in the file Original.txt and store it in a variable
-   String msg = Input.readFile("Original.txt");
+   String msg = Input.readFile("Something.txt");
     print(encode(msg));
  
    print(decode(encode(msg)));
